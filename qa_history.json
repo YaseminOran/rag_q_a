@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2025-05-20 05:07:43",
+    "question": "makine öğrenmesi nedir?",
+    "answer": "[OpenAI Genel Bilgi Tabanından] Makine öğrenmesi, bilgisayar sistemlerinin veri kullanarak örüntüleri ve bilgileri öğrenmesini sağlayan yapay zeka alanının bir alt dalıdır. Bu teknoloji, algoritmaların veri analizi yaparak öğrenmesini, tahminlerde bulunmasını ve kararlar almasını sağlar. Veri setlerinden öğrenme yoluyla modeller oluşturarak, bu modelleri kullanarak gelecekteki verileri analiz etmek ve sonuçlar çıkarmak için kullanılır."
+  },
+  {
+    "timestamp": "2025-05-20 05:07:54",
+    "question": "boosting nedir",
+    "answer": "[OpenAI Genel Bilgi Tabanından] Boosting, makine öğrenimi alanında kullanılan bir tekniktir. Bu teknikte, zayıf öğrenicileri (weak learners) bir araya getirerek güçlü bir öğrenici (strong learner) oluşturulmaya çalışılır. Boosting algoritması, zayıf öğrenicilerin hatalarını düzelterek, bir sonraki zayıf öğreniciyi daha iyi hale getirmeye odaklanır. Bu şekilde, bir dizi zayıf öğreniciyi bir araya getirerek genel doğruluk oranını artırmayı hedefler. Bu algoritmalardan en popüler olanları AdaBoost, Gradient Boosting ve XGBoost'tur."
+  },
+  {
+    "timestamp": "2025-05-20 05:08:03",
+    "question": "bagging nedir?",
+    "answer": "[OpenAI Genel Bilgi Tabanından] Bagging, \"Bootstrap Aggregating\" kelimelerinin kısaltmasıdır. Bu yöntem, makine öğrenmesinde kullanılan bir ensemble (bir araya getirme) tekniğidir. Bagging, aynı öğrenme algoritmasını farklı alt kümeler üzerinde eğiterek ve ardından bu alt modellerin tahminlerini bir araya getirerek daha güçlü ve genelleştirilmiş bir model oluşturmayı amaçlar. Bu sayede overfitting (aşırı uyum) riski azaltılır ve modelin performansı artırılır."
+  },
+  {
+    "timestamp": "2025-05-20 05:08:15",
+    "question": "standart sapma formülü",
+    "answer": "[OpenAI Genel Bilgi Tabanından] Standart sapma formülü, bir veri setinin ne kadar dağıldığını ölçen istatistiksel bir terimdir. Standart sapma, veri noktalarının ortalama değerden ne kadar uzaklıkta olduğunu gösterir. Standart sapma formülü ise şu şekildedir:\n\n1. Veri setinin her bir elemanının, ortalama değerden farkının karesini alın.\n2. Bu karelerin toplamını bulun.\n3. Bu toplamı, veri setinin eleman sayısının bir eksiğine bölün.\n4. Son olarak, bu değerin karekökünü alarak standart sapmayı bulun.\n\nEğer veri seti \\( x_1, x_2, ..., x_n \\) ise standart sapma formülü aşağıdaki gibi olacaktır:\n\n\\[ \\sqrt{\\frac{\\sum_{i=1}^{n} (x_i - \\bar{x})^2}{n-1}} \\]\n\nBurada, \\( \\bar{x} \\) veri setinin ortalamasını temsil eder."
+  }
+]
