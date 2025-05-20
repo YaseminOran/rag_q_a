@@ -41,4 +41,4 @@ qa_history_*.json
 
 # Logs
 *.log
-logs/ 
+logs/ .DS_Store
